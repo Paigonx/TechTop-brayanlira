@@ -1,1 +1,43 @@
-/* Add styles here */
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-claro: rgb(32, 63, 165);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 19px;
+    text-decoration: none;
+    font-family: "Mozilla Headline", sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+nav {
+    background-color: rgb(32, 63, 165);
+}
+
+h1 {
+    background-color: rgb(32, 63, 165);
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flexbox;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Mozilla Headline", sans-serif;
+}
+
+h1 span {
+    opacity: 65%;
+}
