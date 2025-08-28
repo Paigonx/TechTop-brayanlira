@@ -137,3 +137,26 @@ h3 ~ a {
 #Nintendo {
     padding-right: 46px;
 }
+
+.ps1 {
+    margin-right: 30px;
+}
+
+.xbox {
+    margin-right: 30px;
+}
+
+.linksmais a {
+    margin-block: 10px;
+}
+
+.Coming {
+    
+    color: var(--grey);
+}
+
+.soon a {
+    color: var(--grey);
+    text-align: center;
+    margin: 75px;
+}
